@@ -8,6 +8,9 @@ repositories {
 dependencies {
     compile 'org.eclipse.jetty:jetty-server:9.0.0.RC2'
     compile 'org.eclipse.jetty:jetty-servlet:9.0.0.RC2'
+    compile 'org.apache.tomcat:tomcat-catalina:7.0.41'
+    compile 'org.apache.tomcat:tomcat-util:7.0.41'
+    compile 'org.apache.tomcat.embed:tomcat-embed-core:7.0.41'
 }
 
 sourceCompatibility = 1.7
