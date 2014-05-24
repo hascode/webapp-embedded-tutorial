@@ -17,7 +17,6 @@ public class TomcatEmbeddedRunner {
 		Tomcat.addServlet(rootCtx, "dateServlet", new DatePrintServlet());
 		rootCtx.addServletMapping("/date", "dateServlet");
 		tomcat.start();
-		while (true) {
-		}
+		tomcat.getServer().await();
 	}
 }
