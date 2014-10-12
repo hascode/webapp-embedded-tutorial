@@ -14,7 +14,7 @@ dependencies {
 }
 
 sourceCompatibility = 1.7
-targetCompatability = 1.7
+targetCompatibility = 1.7
 
 task(selectServer, dependsOn: 'classes', type: JavaExec) {
     main = 'com.hascode.tutorial.app.Main'
